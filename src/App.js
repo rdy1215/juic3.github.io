@@ -42,7 +42,7 @@ const App = () => {
       <header className="p-6">
         <div className="container flex justify-between items-center">
           <div>
-            <img src="images/JUIC3 labs.png" width={"150px"} alt="JUIC3 Labs" />
+            <img src="images/JUIC3labs.png" width={"150px"} alt="JUIC3 Labs" />
           </div>
           <div className="text-lg font-bold">Early Access</div>
         </div>
@@ -57,7 +57,7 @@ const App = () => {
           <p className="text-gray-400 text-lg">
             Connect Device, Stake Energy, Earn High Yield—all with ease.
             Monetize Energy assets & fuel the decentralized energy revolution
-            NOW..
+            NOW.
           </p>
         </div>
         {submit ? (

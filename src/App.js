@@ -51,13 +51,16 @@ const App = () => {
       {/* Hero Section */}
       <section className="container px-6 py-2 grid md:grid-cols-2 gap-12 items-center">
         <div className="space-y-8">
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight tracking-wide">
-            Unlock the Energy Market. For Everyone.
+          <h1 className="text-5xl md:text-5xl font-bold leading-tight tracking-wide">
+            Unlock the Energy Markets. For Everyone.
           </h1>
-          <p className="text-gray-400 text-lg">
-            Connect Device, Stake Energy, Earn High Yield—all with ease.
+          <p className="px-4 text-lg text-2xl font-bold">
+            Connect ESSs<br></br>
+            Stake Energy, <br></br>Earn High Yield—all with ease.
+          </p>
+          <p className="px-4 text-lg font-bold">
             Monetize Energy assets & fuel the decentralized energy revolution
-            NOW.
+            <span className="p-2 text-2xl font-bold">NOW.</span>
           </p>
         </div>
         {submit ? (
@@ -96,7 +99,7 @@ const App = () => {
             <Button
               fullWidth
               variant="contained"
-              disabled={emailError || !email}
+              disabled={emailError || !email["entry.1858518904"]}
               sx={{
                 "&.Mui-disabled": {
                   background: "white",

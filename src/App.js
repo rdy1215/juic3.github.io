@@ -44,7 +44,6 @@ const App = () => {
           <div>
             <img src="images/JUIC3labs.png" width={"150px"} alt="JUIC3 Labs" />
           </div>
-          <div className="text-lg font-bold">Early Access</div>
         </div>
       </header>
 
@@ -71,7 +70,7 @@ const App = () => {
             sx={{
               "&.Mui-disabled": {
                 background: "white",
-                color: "#c0c0c0",
+                color: "black",
               },
             }}
           >
@@ -103,7 +102,7 @@ const App = () => {
               sx={{
                 "&.Mui-disabled": {
                   background: "white",
-                  color: "#c0c0c0",
+                  color: "black",
                 },
               }}
               type="submit"
